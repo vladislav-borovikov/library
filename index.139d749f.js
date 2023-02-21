@@ -1,0 +1,2 @@
+const e=document.getElementById("createAuthor"),t=document.getElementById("modalAuthor"),n=document.getElementById("closrAuthorModalBtn"),o=document.getElementById("nameAuthorModal"),d=document.getElementById("authorsCreationForm");e.addEventListener("click",(()=>{d.reset(),t.style.display="block",o.textContent="Додати автора"})),n.addEventListener("click",(()=>{t.style.display="none",d.removeAttribute("data-id_author"),d.reset()}));
+//# sourceMappingURL=index.139d749f.js.map

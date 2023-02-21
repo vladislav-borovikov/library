@@ -1,0 +1,2 @@
+!function(){var t=document.getElementById("createAuthor"),e=document.getElementById("modalAuthor"),n=document.getElementById("closrAuthorModalBtn"),o=document.getElementById("nameAuthorModal"),d=document.getElementById("authorsCreationForm");t.addEventListener("click",(function(){d.reset(),e.style.display="block",o.textContent="Додати автора"})),n.addEventListener("click",(function(){e.style.display="none",d.removeAttribute("data-id_author"),d.reset()}))}();
+//# sourceMappingURL=index.0455ab5f.js.map
