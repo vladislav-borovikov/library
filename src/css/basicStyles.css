@@ -107,18 +107,13 @@ display: flex;
     font-size: 12px;
     height: 22px;
     border-radius: 4px;
-    
-
-   
-
 }
-
-
-
-
-
 
 .infoSection_title {
 font-size: 18px;
 font-style: oblique;
+}
+
+input{
+border-radius: 5px;
 }
