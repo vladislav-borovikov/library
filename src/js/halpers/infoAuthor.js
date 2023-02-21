@@ -25,11 +25,11 @@ class infoAuthor {
   }
 
   getAuthorBook() {
-    return `<div id="${this.id}">
+    return `<div id="${this.id}" class="infoSection_bookContainer">
              <h3>${this.name}</h3>
              <p>Жанр: ${this.ganre}</p>
              <p>К-ть сторінок: ${this.number_of_pages}</p>
-             <button id="removeBookBtn" class="infoSection_button" type="button">Видалити</button>
+             <button id="removeBookBtn"  class="infoSection_button" type="button">Видалити</button>
              <button id="changeBookBtn" class="infoSection_button" type="button">Редагувати</button>
          </div>`;
   }

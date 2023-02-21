@@ -64,7 +64,7 @@ table {
 }
 @media (min-width: 768px) {
 table {
-        width: 50%;
+        width: 70%;
         justify-content: center;
             }
 }
@@ -91,7 +91,8 @@ text-align: center;
     height: 22px;
     border-radius: 4px;
     margin: 5px;
-    width: 78px
+    width: 78px;
+    margin-left: 5px;
 }
 
 .closrAuthorModalBtn,
@@ -116,4 +117,20 @@ font-style: oblique;
 
 input{
 border-radius: 5px;
+}
+
+.infoBooks{
+display: flex;
+flex-wrap: wrap;
+}
+
+.infoSection_bookContainer {
+    
+border-radius:4px ;
+border: thick double #f5ac4d;
+padding: 10px;
+margin-left: 15px;
+margin-top: 15px;
+background-color: rgba(231, 158, 113, 0.645);
+width: 150px
 }
