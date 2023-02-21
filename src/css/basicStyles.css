@@ -1,0 +1,124 @@
+.headerSection {
+display: flex;
+padding: 10px;
+height: 164px;
+}
+
+.headerSection_title{
+font-size: 26px ;
+font-weight: 700px;
+text-shadow: #FC0 1px 0 10px;
+font-style:italic;
+}
+
+.headerSection_navbar{
+
+    display:inline;
+    margin-left: auto;
+    padding-right: 15px;
+
+
+}
+
+.headerSection_button{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    background-color: #cef54d;
+    border: none;
+    padding: 4px 2px;
+    text-decoration: none;
+    font-size: 16px;
+    height: 22px;
+    border-radius: 4px;
+}
+
+.headerSection_form {
+
+}
+
+
+
+
+.headerSection_ganreInput,
+.headerSection_search {
+margin-bottom: 5px;
+
+}
+
+.mainContainer{
+padding-left: 15px;
+padding-right: 15x;
+}
+
+.headerSection_box {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 14px;
+    
+   
+}
+@media (min-width: 768px) {
+table {
+        width: 50%;
+        justify-content: center;
+            }
+}
+
+.titleTable{
+font-size: 16px;
+font-style: oblique;
+}
+
+.textInTable {
+text-align: center;
+}
+
+
+.infoSection_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5ac4d;
+    border: none;
+    padding: 4px 2px;
+    text-decoration: none;
+    font-size: 12px;
+    height: 22px;
+    border-radius: 4px;
+    margin: 5px;
+    width: 78px
+}
+
+.closrAuthorModalBtn,
+.closrModalBtn,
+.closrSearchModalBtn{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ec5e4e;
+    border: none;
+    padding: 4px 2px;
+    text-decoration: none;
+    font-size: 12px;
+    height: 22px;
+    border-radius: 4px;
+    
+
+   
+
+}
+
+
+
+
+
+
+.infoSection_title {
+font-size: 18px;
+font-style: oblique;
+}

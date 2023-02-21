@@ -1,0 +1,30 @@
+.modal,
+.modalAuthor,
+.modalSearch {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0,0,0, 0.8);
+}
+
+.modalContant,
+.modalAuthorContant,
+.modalSearchContant{
+background-color: #fff;
+margin: 15% auto;
+padding: 20px;
+width: 80%;
+border-radius: 10px;
+background-color: rgb(139, 132, 98);
+}
+
+.closrModalBtn,
+.closrAuthorModalBtn,
+.closrSearchModalBtn{
+float: right;
+}
